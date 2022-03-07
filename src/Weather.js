@@ -36,6 +36,9 @@ export default function Weather() {
           Humidity: <span id="hum">14</span>% <br />
           Wind: <span id="wind">8</span>km/h
         </div>
+        <div className="confession">
+            <a href="https://github.com/Nasrin200/weather-react" >Open source code</a>, by Nasrin Alizadeh
+        </div>
       </div>
     </div>
   );
