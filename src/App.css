@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+h1 {
+  display: inline;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  margin-top: 10px;
+  margin-left: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  display: inline;
+  color: blue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sunny {
+  margin-top: 30px;
+}
+.tomorrow {
+  padding: 10px;
+  margin-top: 40px;
+}
+.wednsday {
+  padding: 10px;
+  margin-top: 10px;
+}
+.thursday {
+  padding: 10px;
+  margin-top: 10px;
+}
+.friday {
+  padding: 10px;
+  margin-top: 10px;
+}
+.saturday {
+  padding: 10px;
+  margin-top: 10px;
+}
+.container {
+  margin-top: 50px;
+}
+.weather {
+  padding: 10px 10px 10px 110px;
+  margin-top: 40px;
+}
+.search {
+  margin-left: 15px;
   color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border-color: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+.cityName {
+  border-radius: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#centigrad:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#fahrenheit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#forms {
+  display: inline;
+}
+button {
+  margin-left: 15px;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  border-color: transparent;
 }
